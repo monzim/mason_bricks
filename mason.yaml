@@ -5,8 +5,8 @@ bricks:
   # Run `mason make hello` to try it out.
   flutter_project:
     path: flutter_project
-  page:
-    path: page
+  a_page:
+    path: a_page
   # Bricks can also be imported via git url.
   # Uncomment the following lines to import
   # a brick from a remote git url.

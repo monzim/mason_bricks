@@ -1,4 +1,4 @@
-name: page
+name: a_page
 description: A brick to add page to riverpod app with specific template.
 repository: https://github.com/Monzim/mason_bricks/tree/main/page
 
