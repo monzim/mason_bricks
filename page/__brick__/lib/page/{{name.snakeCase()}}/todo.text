@@ -1,0 +1,12 @@
+//TODO: ADD {{name.pascalCase()}}Page() to /routes/app_route.dart page
+
+import '../page/{{name.snakeCase()}}/{{name.snakeCase()}}_page.dart';
+
+static String get {{name.camelCase()}}Page => '{{name.camelCase()}}';
+  static const String _{{name.camelCase()}}Path = '/{{name.camelCase()}}';
+
+GoRoute(
+    name:  {{name.camelCase()}}Page,
+    path:  _{{name.camelCase()}}Path,
+    builder: (context, state) => const {{name.pascalCase()}}Page(),
+  ),
