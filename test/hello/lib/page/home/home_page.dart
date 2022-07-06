@@ -17,9 +17,7 @@ class HomePage extends ConsumerWidget {
       body: Center(
         child: ElevatedButton.icon(
           onPressed: () => ref.read(themeProvider).toggleTheme(ref),
-          icon: AnimatedSwitcher(
-              duration: Duration(milliseconds: 1000),
-              child: Icon(Theme.of(context).customOption.themeIcon)),
+          icon: Icon(Theme.of(context).customOption.themeIcon),
           label: const Text('Toggle Theme'),
         ),
       ),

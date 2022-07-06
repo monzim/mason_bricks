@@ -1,3 +1,4 @@
-# 0.1.0+1
+# 0.1.1+1
 
-- TODO: Describe initial release.
+- Change Default Theme to Light Mode from System Default
+- Set AppRouter routerProvider to GoRouter
