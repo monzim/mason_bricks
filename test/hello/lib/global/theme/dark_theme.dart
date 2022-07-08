@@ -8,7 +8,7 @@ class DarkTheme {
         brightness: Brightness.dark,
 		useMaterial3:true,
         scaffoldBackgroundColor: Colors.black,
-        primarySwatch: Colors.red, 
+        primarySwatch: Colors.blue, 
         textTheme: GoogleFonts.ubuntuTextTheme(),
       );
 }

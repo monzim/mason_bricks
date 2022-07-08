@@ -7,7 +7,7 @@ class LightTheme {
   static _lightTheme() => ThemeData(
         brightness: Brightness.light,
 		useMaterial3:true,
-        primarySwatch: Colors.green, 
+        primarySwatch: Colors.red, 
         textTheme: GoogleFonts.ubuntuTextTheme(),
       );
 }

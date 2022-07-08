@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 
 import '../global/global.dart';
 
-// TODO:Run This command: flutter pub add flutter_riverpod google_fonts go_router
-
 void main() {
-  runApp(const ProviderScope(child: MyApp()));
+  runApp(
+    ProviderScope(
+      observers: [Logger()],
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends ConsumerWidget {
