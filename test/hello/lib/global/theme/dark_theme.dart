@@ -11,7 +11,7 @@ class DarkTheme {
 
     return ThemeData(
 		useMaterial3:true,
-        primarySwatch: Colors.amber, 
+        primarySwatch: Colors.green, 
       brightness: Brightness.dark,
 
       // Text Theme

@@ -10,7 +10,7 @@ class LightTheme {
 
     return ThemeData(
 		useMaterial3:true,
-        primarySwatch: Colors.green, 
+        primarySwatch: Colors.red, 
       brightness: Brightness.light,
 
       // Text Theme
