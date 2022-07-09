@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../global/global.dart';
 
+// TODO:Run This command: flutter pub add flutter_riverpod google_fonts go_router
+
 void main() {
   runApp(
     ProviderScope(

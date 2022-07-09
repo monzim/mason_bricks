@@ -9,16 +9,23 @@ class HomePage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final provider = ref.watch(homeProvider);
+    final theme = ref.watch(themeProvider);
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home Page'),
-      ),
+      appBar: AppBar(title: const Text('Home Page')),
       body: Center(
-        child: ElevatedButton.icon(
-          onPressed: () => ref.read(themeProvider).toggleTheme(ref),
-          icon: Icon(Theme.of(context).customOption.themeIcon),
-          label: const Text('Toggle Theme'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            const Text('HomePage'),
+            const SizedBox(height: 20),
+            ElevatedButton.icon(
+              onPressed: () => ref.read(themeProvider).toggleTheme(),
+              icon: Icon(Theme.of(context).customOption.themeIcon),
+              label: Text(theme.isDarkMode ? 'DarkMode' : 'LightMode'),
+            ),
+          ],
         ),
       ),
     );

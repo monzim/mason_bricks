@@ -13,14 +13,17 @@ final _customLightTheme = CustomThemeData(
 final _customDarkTheme = CustomThemeData(
   kSpace: 10,
   themeIcon: Icons.dark_mode,
+  isDarkMode: true,
 );
 
 class CustomThemeData {
   final double kSpace;
   final IconData themeIcon;
+  final bool isDarkMode;
 
   CustomThemeData({
     this.kSpace = 10,
     required this.themeIcon,
+    this.isDarkMode = false,
   });
 }

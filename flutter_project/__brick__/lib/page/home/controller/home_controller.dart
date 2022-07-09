@@ -1,12 +1,13 @@
 import '../../../global/global.dart';
-import '../home_provider.dart';
 
 class HomeController {
-  final ProviderRef<HomeController> ref;
+  final Reader read;
 
-  HomeController(this.ref);
+  HomeController(this.read) {
+    _init();
+  }
 
-  void init() {
-    print('HomeController init');
+  void _init() {
+    debugPrint('HomeController Initialize');
   }
 }

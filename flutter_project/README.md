@@ -46,7 +46,8 @@ Just run in the Root Directory
         │       └── widget
         │           └── home_widget.dart
         ├── provider
-        │   └── provider.dart
+        │   ├── provider.dart
+        │   └── provider_logger.dart
         └── routes
             ├── app_router.dart
             └── router_provider.dart
