@@ -1,4 +1,4 @@
-# 0.1.5-dev
+# 0.1.2
 
 - Provider observer Logger Added
 - ThemeHelperService name changed to ThemeService

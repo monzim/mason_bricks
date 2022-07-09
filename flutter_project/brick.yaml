@@ -2,7 +2,7 @@ name: flutter_project
 description: Brick to add riverpod, go_router, google_font with Theme support in the Default App. No more time lost boilerplate code.
 repository: https://github.com/Monzim/mason_bricks/tree/main/flutter_project
 
-version: 0.1.5-dev
+version: 0.1.2
 
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
