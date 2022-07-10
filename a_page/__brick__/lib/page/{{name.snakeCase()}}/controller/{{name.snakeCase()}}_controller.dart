@@ -2,11 +2,13 @@ import '../../../global/global.dart';
 import '../{{name.snakeCase()}}_provider.dart';
 
 class {{name.pascalCase()}}Controller {
-  final ProviderRef<{{name.pascalCase()}}Controller> ref;
+    final Reader read;
 
-  {{name.pascalCase()}}Controller(this.ref);
+  {{name.pascalCase()}}Controller(this.read) {
+    _init();
+  }
 
-  void onInit() {
+  void _init() {
     debugPrint('{{name.pascalCase()}}Controller onInit');
   }
 }

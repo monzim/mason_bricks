@@ -1,3 +1,4 @@
-# 0.1.0+1
+# 0.1.1+1
 
-- TODO: Describe initial release.
+- Controller Required parameter change from Ref to Reader
+- Controller init method added
