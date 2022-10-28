@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+
 import '../global.dart';
 
-class LightTheme {
-  static ThemeData get lightTheme => _lightTheme();
+class DarkTheme {
+  static ThemeData get darkTheme => _darkTheme();
 
-  static _lightTheme([TextTheme? textTheme]) {
-    textTheme ??= ThemeData.light().textTheme;
+  static _darkTheme([TextTheme? textTheme]) {
+    textTheme ??= ThemeData.dark().textTheme;
     const textStyleFunction = GoogleFonts.ubuntu;
 
     return ThemeData(
-		useMaterial3:{{materialThree}},
-        primarySwatch: Colors.{{lightThemeColor}}, 
-      brightness: Brightness.light,
+		useMaterial3:true,
+        primarySwatch: Colors.blue, 
+      brightness: Brightness.dark,
 
       // Text Theme
       textTheme: TextTheme(

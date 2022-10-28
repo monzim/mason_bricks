@@ -9,8 +9,8 @@ class LightTheme {
     const textStyleFunction = GoogleFonts.ubuntu;
 
     return ThemeData(
-		useMaterial3:{{materialThree}},
-        primarySwatch: Colors.{{lightThemeColor}}, 
+      useMaterial3: true,
+      primarySwatch: Colors.blue,
       brightness: Brightness.light,
 
       // Text Theme

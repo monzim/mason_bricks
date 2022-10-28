@@ -9,6 +9,6 @@ class {{name.pascalCase()}}Controller {
   }
 
   void _init() {
-    debugPrint('{{name.pascalCase()}}Controller onInit');
+    debugPrint('🚀 {{name.pascalCase()}}Controller onInit');
   }
 }
