@@ -1,8 +1,8 @@
 name: flutter_project
-description: Brick to add riverpod, go_router, google_font with Theme support in the Default App. No more time lost boilerplate code.
+description: Brick to add riverpod, go_router, google_font with Theme support in the Default App. No more time lost to write boilerplate code.
 repository: https://github.com/Monzim/mason_bricks/tree/main/flutter_project
 
-version: 0.1.2
+version: 0.1.5
 
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
@@ -31,6 +31,6 @@ vars:
 
   darkThemeColor:
     type: string
-    description: default Light theme Color
+    description: default Dark theme Color
     default: blue
-    prompt: What's the Light theme color?
+    prompt: What's the Dark theme color?

@@ -1,11 +1,11 @@
 name: a_page
-description: A brick to add page to riverpod app with specific template.
+description: A brick to add page to riverpod app with specific template (flutter_project) brick
 repository: https://github.com/Monzim/mason_bricks/tree/main/a_page
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.1+1
+version: 0.1.5
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
@@ -25,5 +25,5 @@ vars:
   name:
     type: string
     description: Page name
-    default: Mason
-    prompt: What's your page name?
+    default: Monzim
+    prompt: What's the page name?
