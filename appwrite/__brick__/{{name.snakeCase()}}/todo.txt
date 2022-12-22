@@ -1,0 +1,12 @@
+{
+      "$id": "{{id}}",
+      "name": "{{name.snakeCase()}}",
+      "runtime": "dart-2.17",
+      "path": "functions/{{name.snakeCase()}}",
+      "entrypoint": "lib/main.dart",
+      "execute": [],
+      "events": [],
+      "schedule": "",
+      "typescript": true,
+      "timeout": 15
+    }

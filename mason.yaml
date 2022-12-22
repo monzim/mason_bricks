@@ -3,3 +3,5 @@ bricks:
     path: flutter_project
   a_page:
     path: a_page
+  appwrite:
+    path: appwrite
