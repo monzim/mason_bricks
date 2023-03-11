@@ -1,0 +1,27 @@
+name: aurora
+description: Aurora Flutter architecture with Riverpod, go_router, and Isar for state management, navigation, and data persistence
+repository: https://github.com/monzim/FlutterApp-Aurora
+
+version: 0.0.1+1
+
+environment:
+  mason: ">=0.1.0-dev.47 <0.1.0"
+
+vars:
+  systemDefaultTheme:
+    type: boolean
+    default: true
+    description: Use system default theme
+    prompt: Do you want use system default theme?
+
+  materialThemeColor:
+    type: string
+    default: indigo
+    description: default Material theme Color
+    prompt: What's the Material theme color?
+
+  fontName:
+    type: string
+    default: ubuntu
+    description: default font name
+    prompt: What's the font name? (roboto, ubuntu, openSans, lato)

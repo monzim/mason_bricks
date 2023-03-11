@@ -1,9 +1,9 @@
 name: app
-description: Hello from monzim!
-repository: https://github.com/Monzim/mason_bricks/tree/main/app
+description: Aurora Flutter architecture with Riverpod, go_router, and Isar for state management, navigation, and data persistence
+repository: https://github.com/monzim/FlutterApp-Aurora
 
 
-version: 0.1.0+1
+version: 0.1.0+1.1
 
 
 environment:
