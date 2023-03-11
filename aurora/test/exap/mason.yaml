@@ -1,0 +1,4 @@
+bricks:
+  hello: 0.1.0+1
+  app:
+    path: ../..

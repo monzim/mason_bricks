@@ -1,3 +1,9 @@
+# Aurora [![Aurora](https://img.shields.io/badge/Aurora-red?style=for-the-badge?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://docs.aurora.monzim.com)
+
+Aurora is a Flutter App Template that uses Riverpod, GoRouter, Theme and GoogleFont support.
+
+## [Aurora Docs ](https://docs.aurora.monzim.com)
+
 # page 🇧🇩
 
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
