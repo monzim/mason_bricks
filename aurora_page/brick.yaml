@@ -1,0 +1,22 @@
+name: aurora_page
+description: The Aurora Page Brick. Generate page for Aurora architecture.
+repository: https://github.com/monzim/FlutterApp-Aurora
+
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.47 <0.1.0"
+
+vars:
+  pageName:
+    type: string
+    description: Enter the name of the page
+    default: Aurora
+    prompt: What's the page name?
+
+  # needRoute:
+  #   type: boolean
+  #   description: Do you need route for this page?
+  #   default: true
+  #   prompt: Do you need route for this page?
